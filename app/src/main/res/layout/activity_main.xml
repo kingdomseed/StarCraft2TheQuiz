@@ -35,7 +35,7 @@
             android:layout_marginTop="32dp"
             android:background="@color/colorPrimaryDark"
             android:padding="8dp"
-            android:text="Membership Exam"
+            android:text="@string/membership_exam"
             android:textAllCaps="true"
             android:textColor="@color/colorAccent"
             android:textSize="24sp" />
@@ -48,7 +48,7 @@
             android:layout_margin="16dp"
             android:background="@color/colorPrimary"
             android:padding="8dp"
-            android:text="In order to gain membership to OIB, you must answer several questions pertaining to our legacy. Good luck."
+            android:text="@string/member_text"
             android:textColor="@color/colorAccent"
             android:textSize="16sp" />
 
@@ -61,7 +61,7 @@
             android:background="@color/colorPrimaryDark"
             android:padding="8dp"
             android:layout_marginBottom="32dp"
-            android:text="Begin Exam"
+            android:text="@string/begin_exam"
             android:textColor="@color/colorAccent" />
 
     </RelativeLayout>

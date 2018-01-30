@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Official Imperial Business</string>
     <string name="official_imperial_business">O f f i c i a l\nI m p e r i a l\nB u s i n e s s</string>
+    <string name="membership_exam">Membership Exam</string>
+    <string name="member_text">In order to gain membership to OIB, you must answer several questions pertaining to our legacy. Good luck.</string>
+    <string name="begin_exam">Begin Exam</string>
 </resources>
