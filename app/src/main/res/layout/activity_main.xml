@@ -73,7 +73,7 @@
             android:textColor="@color/colorAccent"
             android:layout_margin="4dp"
             android:textSize="12sp"
-            android:text="Background Images are Copyright Bungie, Inc -- All rights reserved."/>
+            android:text="@string/copyright"/>
 
     </RelativeLayout>
 
