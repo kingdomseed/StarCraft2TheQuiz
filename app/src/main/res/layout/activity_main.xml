@@ -2,6 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     android:fillViewport="true"
     android:background="@drawable/a13_phone"
@@ -13,6 +14,7 @@
 
         <TextView
             android:id="@+id/TitleTextTop"
+            android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -29,7 +31,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/TitleTextTop"
-            android:layout_marginStart="8dp"
+            android:layout_marginStart="16dp"
             android:layout_marginTop="32dp"
             android:background="@color/colorPrimaryDark"
             android:padding="8dp"
@@ -43,7 +45,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/member_exam_title"
-            android:layout_margin="8dp"
+            android:layout_margin="16dp"
             android:background="@color/colorPrimary"
             android:padding="8dp"
             android:text="In order to gain membership to OIB, you must answer several questions pertaining to our legacy. Good luck."
