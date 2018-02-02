@@ -5,4 +5,12 @@
     <string name="member_text">In order to gain membership to OIB, you must answer several questions pertaining to our legacy. Good luck.</string>
     <string name="begin_exam">Begin Exam</string>
     <string name="copyright">Background Images are Copyright Bungie, Inc -- All rights reserved.</string>
+    <string name="destiny">Destiny</string>
+    <string name="embodiment_of_beauty">The Embodiment of Beauty</string>
+    <string name="embodiment_of_possibility">The Embodiment of Possibility</string>
+    <string name="embodiment_of_nothing">The Embodiment of Nothing</string>
+    <string name="embodiment_of_even">The Embodiment of Even</string>
+    <string name="embodiment_of_magnificence">The Embodiment of Magnificence</string>
+    <string name="embodiment_winnebago">The Embodiment Winnebago</string>
+    <string name="embodiment_of_perfection">The Embodiment of Perfection</string>
 </resources>
