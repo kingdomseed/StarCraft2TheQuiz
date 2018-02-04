@@ -26,6 +26,21 @@
             android:textColor="@color/colorAccent"
             android:textSize="32sp" />
 
+        <TextView
+            android:id="@+id/Score"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/TitleTextTop"
+            android:background="@color/colorPrimaryDark"
+            android:padding="8dp"
+            android:text="0%"
+            android:textAllCaps="true"
+            android:textColor="@color/colorAccent"
+            android:textSize="32sp" />
+
         <Button
             android:id="@+id/return_button"
             android:layout_width="wrap_content"
