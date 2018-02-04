@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Exam" />
-        <activity android:name=".ResultsActivity"></activity>
+        <activity android:name=".ResultsActivity" />
+        <activity android:name=".DestinyActivity"></activity>
     </application>
 
 </manifest>
