@@ -16,9 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Exam" />
         <activity android:name=".ResultsActivity" />
-        <activity android:name=".DestinyActivity"></activity>
+        <activity android:name=".DestinyActivity" />
+        <activity android:name=".ExamActivity"></activity>
     </application>
 
 </manifest>

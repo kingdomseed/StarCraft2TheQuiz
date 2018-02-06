@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="org.holtnet.officialimperialbusiness.Exam">
+    tools:context="org.holtnet.officialimperialbusiness.ExamActivity">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -37,6 +37,7 @@
             android:textSize="16sp" />
 
         <EditText
+            android:id="@+id/EnterNameID"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:hint="@string/destiny"
@@ -113,7 +114,6 @@
             android:layout_marginTop="8dp">
 
             <RadioButton
-                android:id="@+id/q2answer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -128,6 +128,7 @@
                 android:text="@string/embodiment_of_beauty" />
 
             <RadioButton
+                android:id="@+id/q2answer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -313,7 +314,6 @@
             android:layout_marginTop="8dp">
 
             <RadioButton
-                android:id="@+id/q6answer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -321,6 +321,7 @@
                 android:text="@string/embodiment_of_beauty" />
 
             <RadioButton
+                android:id="@+id/q6answer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -363,7 +364,6 @@
             android:layout_marginTop="8dp">
 
             <RadioButton
-                android:id="@+id/q7answer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -371,6 +371,7 @@
                 android:text="@string/embodiment_of_nothing" />
 
             <RadioButton
+                android:id="@+id/q7answer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -413,7 +414,6 @@
             android:layout_marginTop="8dp">
 
             <RadioButton
-                android:id="@+id/q8answer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -421,6 +421,7 @@
                 android:text="A particle of light" />
 
             <RadioButton
+                android:id="@+id/q8answer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -463,7 +464,6 @@
             android:layout_marginTop="8dp">
 
             <RadioButton
-                android:id="@+id/q9answer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -478,6 +478,7 @@
                 android:text="My sons" />
 
             <RadioButton
+                android:id="@+id/q9answer"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -557,33 +558,41 @@
             android:textSize="16sp" />
 
         <CheckBox
+            android:id="@+id/q11a1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginTop="8dp"
             android:padding="8dp"
-            android:text="The Dark Brotherhood must have killed them!"/>
+            android:text="The Dark Brotherhood must have killed them!"
+            android:onClick="onQuestion11CheckboxClicked"/>
         <CheckBox
+            android:id="@+id/q11aw1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginTop="8dp"
             android:padding="8dp"
-            android:text="No please! Ahhhhhhhhhm sorry!"/>
+            android:text="No please! Ahhhhhhhhhm sorry!"
+            android:onClick="onQuestion11CheckboxClicked"/>
         <CheckBox
+            android:id="@+id/q11a2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginTop="8dp"
             android:padding="8dp"
-            android:text="By Azure, it's the grand champion!"/>
+            android:text="By Azure, it's the grand champion!"
+            android:onClick="onQuestion11CheckboxClicked"/>
         <CheckBox
+            android:id="@+id/q11destiny"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
             android:layout_marginTop="8dp"
             android:padding="8dp"
-            android:text="@string/destiny"/>
+            android:text="@string/destiny"
+            android:onClick="onQuestion11CheckboxClicked"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -599,6 +608,7 @@
             android:textSize="16sp" />
 
         <CheckBox
+            android:id="@+id/q12a1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -606,6 +616,7 @@
             android:padding="8dp"
             android:text="Yes."/>
         <CheckBox
+            android:id="@+id/q12a2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -613,6 +624,7 @@
             android:padding="8dp"
             android:text="Then go away."/>
         <CheckBox
+            android:id="@+id/q12a3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -620,6 +632,7 @@
             android:padding="8dp"
             android:text="You're a liar."/>
         <CheckBox
+            android:id="@+id/q12destiny"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -641,6 +654,7 @@
             android:textSize="16sp" />
 
         <CheckBox
+            android:id="@+id/q13a1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -648,6 +662,7 @@
             android:padding="8dp"
             android:text="Breton scum."/>
         <CheckBox
+            android:id="@+id/q13a2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -655,6 +670,7 @@
             android:padding="8dp"
             android:text="Now you will know pain!"/>
         <CheckBox
+            android:id="@+id/q13a3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -662,6 +678,7 @@
             android:padding="8dp"
             android:text="Stop right there. Criminal scum"/>
         <CheckBox
+            android:id="@+id/q13destiny"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -683,6 +700,7 @@
             android:textSize="16sp" />
 
         <CheckBox
+            android:id="@+id/q14a1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -690,6 +708,7 @@
             android:padding="8dp"
             android:text="Attacking another citizen."/>
         <CheckBox
+            android:id="@+id/q14a2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -697,6 +716,7 @@
             android:padding="8dp"
             android:text="Picking up a book in the library."/>
         <CheckBox
+            android:id="@+id/q14aw1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
@@ -704,6 +724,7 @@
             android:padding="8dp"
             android:text="Knocking another citizen out cold with one punch."/>
         <CheckBox
+            android:id="@+id/q14destiny"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"

@@ -18,11 +18,11 @@ public class MainActivity extends AppCompatActivity {
         beginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent beginIntent = new Intent(MainActivity.this, Exam.class);
+                Intent beginIntent = new Intent(MainActivity.this, ExamActivity.class);
                 startActivity(beginIntent);
             }
         });
-
-
     }
+
+
 }
