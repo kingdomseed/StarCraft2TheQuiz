@@ -23,7 +23,7 @@ public class ExamActivity extends AppCompatActivity {
 
     Button endButton;
 
-    boolean q11, q12, q13, q14, destiny111, destiny12, destiny13, destiny14;
+    boolean q11, q12, q13, q14, destiny11, destiny12, destiny13, destiny14;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -83,28 +83,26 @@ public class ExamActivity extends AppCompatActivity {
 
     }
 
-    public void onQuestion11CheckboxClicked(View view)
+    public void onQuestionsRadioButtonClicked(View view)
     {
-        if(q11Answer1.isChecked() && q11Answer2.isChecked() && !q11Wrong.isChecked() && !q11Destiny.isChecked())
-        {
-            q11 = true;
-            Toast.makeText(this, "True", Toast.LENGTH_SHORT).show();
-        } else if(DestinyChecker())
-        {
-            Toast.makeText(this, "Destiny", Toast.LENGTH_SHORT).show();
-            q11 = false;
-        } else
-        {
-
-        }
+        Toast.makeText(this, "Test", Toast.LENGTH_SHORT).show();
     }
 
-    private boolean DestinyChecker()
+    public void onQuestionsCheckboxClicked(View view)
     {
-        if (!q11Answer1.isChecked() && !q11Answer2.isChecked() && !q11Wrong.isChecked() && q11Destiny.isChecked())
-            return true;
-        else
-            return false;
+        if(q11Answer1.isChecked() && q11Answer2.isChecked() && !q11Wrong.isChecked() && !q11Destiny.isChecked()) {q11 = true;}
+        else if(q12Answer1.isChecked() && q12Answer2.isChecked() && q12Answer3.isChecked() && !q12Destiny.isChecked()) {q12 = true;}
+        else if(q13Answer1.isChecked() && q13Answer2.isChecked() && q13Answer3.isChecked() && !q13Destiny.isChecked()) {q13 = true;}
+        else if(q14Answer1.isChecked() && q14Answer2.isChecked() && !q14Wrong.isChecked() && !q11Destiny.isChecked()) {q14 = true;}
+        else {DestinyChecker();}
+    }
+
+    private void DestinyChecker()
+    {
+        if (!q11Answer1.isChecked() && !q11Answer2.isChecked() && !q11Wrong.isChecked() && q11Destiny.isChecked()) {destiny11 = true;}
+        if (!q12Answer1.isChecked() && !q12Answer2.isChecked() && !q12Answer3.isChecked() && q12Destiny.isChecked()) {destiny12 = true;}
+        if (!q13Answer1.isChecked() && !q13Answer2.isChecked() && !q13Answer3.isChecked() && q13Destiny.isChecked()) {destiny13 = true;}
+        if (!q14Answer1.isChecked() && !q14Answer2.isChecked() && !q14Wrong.isChecked() && q14Destiny.isChecked()) {destiny14 = true;}
     }
 
 }

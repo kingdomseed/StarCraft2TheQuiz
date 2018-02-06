@@ -61,7 +61,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="8dp"
+            android:onClick="onQuestionsRadioButtonClicked">
 
             <RadioButton
                 android:id="@+id/q1answer"
@@ -111,7 +112,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="8dp"
+            android:onClick="onQuestionsRadioButtonClicked">
 
             <RadioButton
                 android:layout_width="wrap_content"
@@ -161,7 +163,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="8dp"
+            android:onClick="onQuestionsRadioButtonClicked">
 
             <RadioButton
                 android:id="@+id/q3answer"
@@ -211,7 +214,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="8dp"
+            android:onClick="onQuestionsRadioButtonClicked">
 
             <RadioButton
                 android:id="@+id/q4answer"
@@ -261,7 +265,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="8dp"
+            android:onClick="onQuestionsRadioButtonClicked">
 
             <RadioButton
                 android:id="@+id/q5answer"
@@ -311,7 +316,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="8dp"
+            android:onClick="onQuestionsRadioButtonClicked">
 
             <RadioButton
                 android:layout_width="wrap_content"
@@ -361,7 +367,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="8dp"
+            android:onClick="onQuestionsRadioButtonClicked">
 
             <RadioButton
                 android:layout_width="wrap_content"
@@ -411,7 +418,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="8dp"
+            android:onClick="onQuestionsRadioButtonClicked">
 
             <RadioButton
                 android:layout_width="wrap_content"
@@ -461,7 +469,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="8dp"
+            android:onClick="onQuestionsRadioButtonClicked">
 
             <RadioButton
                 android:layout_width="wrap_content"
@@ -511,7 +520,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp">
+            android:layout_marginTop="8dp"
+            android:onClick="onQuestionsRadioButtonClicked">
 
             <RadioButton
                 android:id="@+id/q10answer"
@@ -565,7 +575,7 @@
             android:layout_marginTop="8dp"
             android:padding="8dp"
             android:text="The Dark Brotherhood must have killed them!"
-            android:onClick="onQuestion11CheckboxClicked"/>
+            android:onClick="onQuestionsCheckboxClicked"/>
         <CheckBox
             android:id="@+id/q11aw1"
             android:layout_width="wrap_content"
@@ -574,7 +584,7 @@
             android:layout_marginTop="8dp"
             android:padding="8dp"
             android:text="No please! Ahhhhhhhhhm sorry!"
-            android:onClick="onQuestion11CheckboxClicked"/>
+            android:onClick="onQuestionsCheckboxClicked"/>
         <CheckBox
             android:id="@+id/q11a2"
             android:layout_width="wrap_content"
@@ -583,7 +593,7 @@
             android:layout_marginTop="8dp"
             android:padding="8dp"
             android:text="By Azure, it's the grand champion!"
-            android:onClick="onQuestion11CheckboxClicked"/>
+            android:onClick="onQuestionsCheckboxClicked"/>
         <CheckBox
             android:id="@+id/q11destiny"
             android:layout_width="wrap_content"
@@ -592,7 +602,7 @@
             android:layout_marginTop="8dp"
             android:padding="8dp"
             android:text="@string/destiny"
-            android:onClick="onQuestion11CheckboxClicked"/>
+            android:onClick="onQuestionsCheckboxClicked"/>
 
         <TextView
             android:layout_width="wrap_content"
