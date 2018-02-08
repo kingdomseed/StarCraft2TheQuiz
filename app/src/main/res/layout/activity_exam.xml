@@ -78,7 +78,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:padding="8dp"
-                android:text="@string/embodiment_of_possibility" />
+                android:text="@string/embodiment_of_possibility"
+                android:onClick="onQuestionsRadioButtonClicked"/>
 
             <RadioButton
                 android:id="@+id/q1answer3"
@@ -86,7 +87,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:padding="8dp"
-                android:text="@string/embodiment_of_nothing" />
+                android:text="@string/embodiment_of_nothing"
+                android:onClick="onQuestionsRadioButtonClicked"/>
 
             <RadioButton
                 android:id="@+id/q1destiny"
@@ -123,7 +125,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:padding="8dp"
-                android:text="@string/embodiment_of_even" />
+                android:text="@string/embodiment_of_even"
+                android:onClick="onQuestionsRadioButtonClicked"/>
 
             <RadioButton
                 android:id="@+id/q2answer3"
@@ -131,7 +134,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:padding="8dp"
-                android:text="@string/embodiment_of_beauty" />
+                android:text="@string/embodiment_of_beauty"
+                android:onClick="onQuestionsRadioButtonClicked"/>
 
             <RadioButton
                 android:id="@+id/q2answer"
@@ -186,7 +190,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:padding="8dp"
-                android:text="@string/embodiment_of_possibility" />
+                android:text="@string/embodiment_of_possibility"
+                android:onClick="onQuestionsRadioButtonClicked"/>
 
             <RadioButton
                 android:id="@+id/q3answer3"
@@ -194,7 +199,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:padding="8dp"
-                android:text="@string/embodiment_winnebago" />
+                android:text="@string/embodiment_winnebago"
+                android:onClick="onQuestionsRadioButtonClicked"/>
 
             <RadioButton
                 android:id="@+id/q3destiny"
@@ -240,7 +246,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:padding="8dp"
-                android:text="@string/embodiment_of_beauty" />
+                android:text="@string/embodiment_of_beauty"
+                android:onClick="onQuestionsRadioButtonClicked"/>
 
             <RadioButton
                 android:id="@+id/q4answer3"
@@ -248,7 +255,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:padding="8dp"
-                android:text="@string/embodiment_of_nothing" />
+                android:text="@string/embodiment_of_nothing"
+                android:onClick="onQuestionsRadioButtonClicked"/>
 
             <RadioButton
                 android:id="@+id/q4destiny"
@@ -294,7 +302,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:padding="8dp"
-                android:text="@string/embodiment_of_magnificence" />
+                android:text="@string/embodiment_of_magnificence"
+                android:onClick="onQuestionsRadioButtonClicked"/>
 
             <RadioButton
                 android:id="@+id/q5answer3"
@@ -302,7 +311,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:padding="8dp"
-                android:text="@string/embodiment_of_even" />
+                android:text="@string/embodiment_of_even"
+                android:onClick="onQuestionsRadioButtonClicked"/>
 
             <RadioButton
                 android:id="@+id/q5destiny"
@@ -339,7 +349,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:padding="8dp"
-                android:text="@string/embodiment_of_beauty" />
+                android:text="@string/embodiment_of_beauty"
+                android:onClick="onQuestionsRadioButtonClicked"/>
 
             <RadioButton
                 android:id="@+id/q6answer"
@@ -356,7 +367,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:padding="8dp"
-                android:text="@string/embodiment_of_nothing" />
+                android:text="@string/embodiment_of_nothing"
+                android:onClick="onQuestionsRadioButtonClicked"/>
 
             <RadioButton
                 android:id="@+id/q6destiny"
@@ -393,7 +405,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:padding="8dp"
-                android:text="@string/embodiment_of_nothing" />
+                android:text="@string/embodiment_of_nothing"
+                android:onClick="onQuestionsRadioButtonClicked"/>
 
             <RadioButton
                 android:id="@+id/q7answer"
@@ -410,7 +423,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:padding="8dp"
-                android:text="@string/embodiment_winnebago" />
+                android:text="@string/embodiment_winnebago"
+                android:onClick="onQuestionsRadioButtonClicked"/>
 
             <RadioButton
                 android:id="@+id/q7destiny"
@@ -439,8 +453,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp"
-            android:onClick="onQuestionsRadioButtonClicked">
+            android:layout_marginTop="8dp">
 
             <RadioButton
                 android:id="@+id/q8answer2"
@@ -448,7 +461,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:padding="8dp"
-                android:text="A particle of light" />
+                android:text="A particle of light"
+                android:onClick="onQuestionsRadioButtonClicked"/>
 
             <RadioButton
                 android:id="@+id/q8answer"
@@ -465,7 +479,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:padding="8dp"
-                android:text="The Millennium Falcon" />
+                android:text="The Millennium Falcon"
+                android:onClick="onQuestionsRadioButtonClicked"/>
 
             <RadioButton
                 android:id="@+id/q8destiny"
@@ -502,7 +517,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:padding="8dp"
-                android:text="My death" />
+                android:text="My death"
+                android:onClick="onQuestionsRadioButtonClicked"/>
 
             <RadioButton
                 android:id="@+id/q9answer3"
@@ -510,7 +526,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:padding="8dp"
-                android:text="My sons" />
+                android:text="My sons"
+                android:onClick="onQuestionsRadioButtonClicked"/>
 
             <RadioButton
                 android:id="@+id/q9answer"
@@ -565,7 +582,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:padding="8dp"
-                android:text="WRX STI" />
+                android:text="WRX STI"
+                android:onClick="onQuestionsRadioButtonClicked"/>
 
             <RadioButton
                 android:id="@+id/q10answer3"
@@ -573,7 +591,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:padding="8dp"
-                android:text="STI" />
+                android:text="STI"
+                android:onClick="onQuestionsRadioButtonClicked"/>
 
             <RadioButton
                 android:id="@+id/q10destiny"

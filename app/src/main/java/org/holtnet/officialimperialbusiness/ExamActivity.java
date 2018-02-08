@@ -72,87 +72,95 @@ public class ExamActivity extends AppCompatActivity {
         boolean checked = ((RadioButton) view).isChecked();
         switch (view.getId()) {
             case R.id.q1answer:
-                q1 = ((RadioButton) view).isChecked();;
-                Toast.makeText(this, "q1: " + q1, Toast.LENGTH_SHORT).show();
+                q1 = checked;
+                Toast.makeText(this, "q1 is " + q1, Toast.LENGTH_SHORT).show();
                 break;
             case R.id.q1answer2:
-                q1 = !checked;
-                Toast.makeText(this, "q1: " + q1, Toast.LENGTH_SHORT).show();
-                break;
             case R.id.q1answer3:
-                q1 = !checked;
-                Toast.makeText(this, "q1: " + q1, Toast.LENGTH_SHORT).show();
-                break;
             case R.id.q1destiny:
+                q1 = !checked;
+                Toast.makeText(this, "q1 is " + q1, Toast.LENGTH_SHORT).show();
                 if(view.getId() == R.id.q1destiny)
                 {
                     q1d = checked;
-                    q1 = !checked;
-                    Toast.makeText(this, "Destiny q1: " + q1d, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "q1d is " + q1d, Toast.LENGTH_SHORT).show();
                 }
-                Toast.makeText(this, "q1: " + q1, Toast.LENGTH_SHORT).show();
                 break;
             case R.id.q2answer:
+                q2 = checked;
+                break;
             case R.id.q2answer2:
             case R.id.q2answer3:
             case R.id.q2destiny:
+                q2 = !checked;
                 if(view.getId() == R.id.q2destiny)
                 {
                     q2d = checked;
                 }
-                q2 = checked;
                 break;
             case R.id.q3answer:
+                q3 = checked;
+                break;
             case R.id.q3answer2:
             case R.id.q3answer3:
             case R.id.q3destiny:
+                q3 = !checked;
                 if(view.getId() == R.id.q3destiny)
                 {
                     q3d = checked;
                 }
-                q3 = checked;
                 break;
             case R.id.q4answer:
+                q4 = checked;
+                break;
             case R.id.q4answer2:
             case R.id.q4answer3:
             case R.id.q4destiny:
+                q5 = !checked;
                 if(view.getId() == R.id.q4destiny)
                 {
                     q4d = checked;
                 }
-                q4 = checked;
                 break;
             case R.id.q5answer:
+                q6 = checked;
+                break;
             case R.id.q5answer2:
             case R.id.q5answer3:
             case R.id.q5destiny:
+                q6 = !checked;
                 if(view.getId() == R.id.q5destiny)
                 {
                     q5d = checked;
                 }
-                q5 = checked;
                 break;
             case R.id.q6answer:
+                q6 = checked;
+                break;
             case R.id.q6answer2:
             case R.id.q6answer3:
             case R.id.q6destiny:
+                q6 = !checked;
                 if(view.getId() == R.id.q6destiny)
                 {
                     q6d = checked;
                 }
-                q6 = checked;
                 break;
             case R.id.q7answer:
+                q7 = checked;
+                break;
             case R.id.q7answer2:
             case R.id.q7answer3:
             case R.id.q7destiny:
+                q7 = !checked;
                 if(view.getId() == R.id.q7destiny)
                 {
                     q7d = checked;
                 }
-                q7 = checked;
                 break;
             case R.id.q8answer:
+                q8 = checked;
+                break;
             case R.id.q8answer2:
             case R.id.q8answer3:
             case R.id.q8destiny:
@@ -160,27 +168,30 @@ public class ExamActivity extends AppCompatActivity {
                 {
                     q8d = checked;
                 }
-                q8 = checked;
                 break;
             case R.id.q9answer:
+                q9 = checked;
+                break;
             case R.id.q9answer2:
             case R.id.q9answer3:
             case R.id.q9destiny:
+                q9 = !checked;
                 if(view.getId() == R.id.q9destiny)
                 {
                     q9d = checked;
                 }
-                q9 = checked;
                 break;
             case R.id.q10answer:
+                q10 = checked;
+                break;
             case R.id.q10answer2:
             case R.id.q10answer3:
             case R.id.q10destiny:
+                q10 = !checked;
                 if(view.getId() == R.id.q10destiny)
                 {
                     q10d = checked;
                 }
-                q10 = checked;
                 break;
             default:
                 break;
