@@ -72,15 +72,24 @@ public class ExamActivity extends AppCompatActivity {
         boolean checked = ((RadioButton) view).isChecked();
         switch (view.getId()) {
             case R.id.q1answer:
+                q1 = ((RadioButton) view).isChecked();;
+                Toast.makeText(this, "q1: " + q1, Toast.LENGTH_SHORT).show();
+                break;
             case R.id.q1answer2:
+                q1 = !checked;
+                Toast.makeText(this, "q1: " + q1, Toast.LENGTH_SHORT).show();
+                break;
             case R.id.q1answer3:
+                q1 = !checked;
+                Toast.makeText(this, "q1: " + q1, Toast.LENGTH_SHORT).show();
+                break;
             case R.id.q1destiny:
                 if(view.getId() == R.id.q1destiny)
                 {
                     q1d = checked;
+                    q1 = !checked;
                     Toast.makeText(this, "Destiny q1: " + q1d, Toast.LENGTH_SHORT).show();
                 }
-                q1 = checked;
                 Toast.makeText(this, "q1: " + q1, Toast.LENGTH_SHORT).show();
                 break;
             case R.id.q2answer:
@@ -230,8 +239,8 @@ public class ExamActivity extends AppCompatActivity {
 
         // determine that the checkboxes are as follows:
         // destinyCheckBoxes = true;
-        // q11-14CheckBoxes = it is true that they are false (unchecked)
-        if (destinyCheckBoxes && !q11CheckBoxes && !q12CheckBoxes && !q13CheckBoxes && !q14CheckBoxes) {
+        // q11-14CheckBoxes = true;
+        if (destinyCheckBoxes && q11CheckBoxes && q12CheckBoxes && q13CheckBoxes && q14CheckBoxes) {
             destiny11 = true;
             destiny12 = true;
             destiny13 = true;
