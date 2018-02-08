@@ -73,17 +73,14 @@ public class ExamActivity extends AppCompatActivity {
         switch (view.getId()) {
             case R.id.q1answer:
                 q1 = checked;
-                Toast.makeText(this, "q1 is " + q1, Toast.LENGTH_SHORT).show();
                 break;
             case R.id.q1answer2:
             case R.id.q1answer3:
             case R.id.q1destiny:
                 q1 = !checked;
-                Toast.makeText(this, "q1 is " + q1, Toast.LENGTH_SHORT).show();
                 if(view.getId() == R.id.q1destiny)
                 {
                     q1d = checked;
-                    Toast.makeText(this, "q1d is " + q1d, Toast.LENGTH_SHORT).show();
                 }
                 break;
             case R.id.q2answer:
