@@ -2,10 +2,10 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
-    android:fillViewport="true"
     android:background="@drawable/destiny"
+    android:fillViewport="true"
+    android:orientation="vertical"
     tools:context="org.holtnet.officialimperialbusiness.MainActivity">
 
     <RelativeLayout
@@ -14,26 +14,28 @@
 
         <TextView
             android:id="@+id/TitleTextTop"
-            android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
             android:layout_marginTop="16dp"
-            android:background="@color/colorPrimaryDark"
+            android:background="@drawable/rounded_corners_dark"
             android:padding="8dp"
             android:text="Welcome to OIB"
             android:textAllCaps="true"
             android:textColor="@color/colorAccent"
-            android:textSize="32sp" />
+            android:textSize="32sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/member_exam_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_above="@id/button_end"
-            android:layout_marginStart="16dp"
+            android:layout_alignParentEnd="true"
             android:layout_marginBottom="16dp"
-            android:background="@color/colorPrimaryDark"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/rounded_corners_dark"
             android:padding="8dp"
             android:text="Your score is over 9000."
             android:textAllCaps="true"
@@ -45,10 +47,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
             android:layout_centerInParent="true"
-            android:background="@color/colorPrimaryDark"
-            android:padding="8dp"
             android:layout_marginBottom="32dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/rounded_corners_dark"
+            android:padding="8dp"
             android:text="@string/return_to_main_menu"
             android:textColor="@color/colorAccent" />
 

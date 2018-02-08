@@ -2,10 +2,10 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
-    android:fillViewport="true"
     android:background="@drawable/a12_phone"
+    android:fillViewport="true"
+    android:orientation="vertical"
     tools:context="org.holtnet.officialimperialbusiness.MainActivity">
 
     <RelativeLayout
@@ -14,46 +14,46 @@
 
         <TextView
             android:id="@+id/TitleTextTop"
-            android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
             android:layout_marginEnd="16dp"
             android:layout_marginTop="16dp"
-            android:layout_alignParentEnd="true"
-            android:background="@color/colorPrimaryDark"
+            android:background="@drawable/rounded_corners_dark"
             android:padding="8dp"
             android:text="Your final score"
             android:textAllCaps="true"
             android:textColor="@color/colorAccent"
-            android:textSize="32sp" />
+            android:textSize="32sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/Score"
-            android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            android:layout_marginBottom="16dp"
-            android:layout_alignParentEnd="true"
             android:layout_above="@id/return_button"
-            android:background="@color/colorPrimaryDark"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/rounded_corners_dark"
             android:padding="8dp"
             android:text="0%"
             android:textAllCaps="true"
             android:textColor="@color/colorAccent"
-            android:textSize="32sp" />
+            android:textSize="32sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/return_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
             android:layout_centerInParent="true"
-            android:background="@color/colorPrimaryDark"
-            android:padding="8dp"
-            android:layout_marginEnd="16dp"
             android:layout_marginBottom="32dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/rounded_corners_dark"
+            android:padding="8dp"
             android:text="@string/return_to_main_menu"
             android:textColor="@color/colorAccent" />
 
@@ -61,12 +61,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:alpha="0.5"
             android:layout_centerInParent="true"
-            android:textColor="@color/colorAccent"
             android:layout_margin="4dp"
-            android:textSize="12sp"
-            android:text="@string/copyright"/>
+            android:alpha="0.5"
+            android:text="@string/copyright"
+            android:textColor="@color/colorAccent"
+            android:textSize="12sp" />
 
     </RelativeLayout>
 
