@@ -204,7 +204,6 @@ public class ExamActivity extends AppCompatActivity {
             case R.id.q11aw1:
             case R.id.q11destiny:
                 q11 = q11Answer1.isChecked() && q11Answer2.isChecked() && !q11Wrong.isChecked() && !q11Destiny.isChecked();
-                Toast.makeText(this, "q-11: " + q11, Toast.LENGTH_SHORT).show();
                 break;
             case R.id.q12a1:
             case R.id.q12a2:

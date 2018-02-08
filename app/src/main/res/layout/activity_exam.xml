@@ -24,17 +24,9 @@
             android:textSize="24sp" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/rounded_corners_light"
+            style="@style/questionText"
             android:padding="8dp"
-            android:text="Enter your name: "
-            android:textAllCaps="true"
-            android:textColor="@color/colorAccent"
-            android:textSize="16sp" />
+            android:text="Enter your name: " />
 
         <EditText
             android:id="@+id/EnterNameID"
@@ -45,762 +37,382 @@
             android:hint="@string/destiny" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/rounded_corners_light"
+            style="@style/questionText"
             android:padding="8dp"
-            android:text="Question 1: Chris is..."
-            android:textAllCaps="true"
-            android:textColor="@color/colorAccent"
-            android:textSize="16sp" />
+            android:text="Question 1: Chris is..." />
 
-        <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp">
+        <RadioGroup style="@style/radioGroup">
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q1answer"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_beauty" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q1answer2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_possibility" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q1answer3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_nothing" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q1destiny"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/destiny" />
         </RadioGroup>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/rounded_corners_light"
+            style="@style/questionText"
             android:padding="8dp"
-            android:text="Question 2: Steven is..."
-            android:textAllCaps="true"
-            android:textColor="@color/colorAccent"
-            android:textSize="16sp" />
+            android:text="Question 2: Steven is..." />
 
-        <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp">
+        <RadioGroup style="@style/radioGroup">
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q2answer2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_even" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q2answer3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_beauty" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q2answer"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_magnificence" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q2destiny"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/destiny" />
         </RadioGroup>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/rounded_corners_light"
+            style="@style/questionText"
             android:padding="8dp"
-            android:text="Question 3: Tim is..."
-            android:textAllCaps="true"
-            android:textColor="@color/colorAccent"
-            android:textSize="16sp" />
+            android:text="Question 3: Tim is..." />
 
-        <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp">
+        <RadioGroup style="@style/radioGroup">
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q3answer"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_nothing" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q3answer2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_possibility" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q3answer3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/embodiment_winnebago" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q3destiny"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/destiny" />
         </RadioGroup>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/rounded_corners_light"
+            style="@style/questionText"
             android:padding="8dp"
-            android:text="Question 4: Mark is..."
-            android:textAllCaps="true"
-            android:textColor="@color/colorAccent"
-            android:textSize="16sp" />
+            android:text="Question 4: Mark is..." />
 
-        <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp">
+        <RadioGroup style="@style/radioGroup">
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q4answer"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_perfection" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q4answer2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_beauty" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q4answer3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_nothing" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q4destiny"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/destiny" />
         </RadioGroup>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/rounded_corners_light"
+            style="@style/questionText"
             android:padding="8dp"
-            android:text="Question 5: Josh is..."
-            android:textAllCaps="true"
-            android:textColor="@color/colorAccent"
-            android:textSize="16sp" />
+            android:text="Question 5: Josh is..." />
 
-        <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp">
+        <RadioGroup style="@style/radioGroup">
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q5answer"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_possibility" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q5answer2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_magnificence" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q5answer3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_even" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q5destiny"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/destiny" />
         </RadioGroup>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/rounded_corners_light"
+            style="@style/questionText"
             android:padding="8dp"
-            android:text="Question 6: Jack is..."
-            android:textAllCaps="true"
-            android:textColor="@color/colorAccent"
-            android:textSize="16sp" />
+            android:text="Question 6: Jack is..." />
 
-        <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp">
+        <RadioGroup style="@style/radioGroup">
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q6answer2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_beauty" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q6answer"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/embodiment_winnebago" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q6answer3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_nothing" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q6destiny"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/destiny" />
         </RadioGroup>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/rounded_corners_light"
+            style="@style/questionText"
             android:padding="8dp"
-            android:text="Question 7: Do you even know what Jason is though?"
-            android:textAllCaps="true"
-            android:textColor="@color/colorAccent"
-            android:textSize="16sp" />
+            android:text="Question 7: Do you even know what Jason is though?" />
 
-        <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp">
+        <RadioGroup style="@style/radioGroup">
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q7answer2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_nothing" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q7answer"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_even" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q7answer3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/embodiment_winnebago" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q7destiny"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/destiny" />
         </RadioGroup>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/rounded_corners_light"
+            style="@style/questionText"
             android:padding="8dp"
-            android:text="Question 8: What is the fastest object in the universe?"
-            android:textAllCaps="true"
-            android:textColor="@color/colorAccent"
-            android:textSize="16sp" />
+            android:text="Question 8: What is the fastest object in the universe?" />
 
-        <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp">
+        <RadioGroup style="@style/radioGroup">
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q8answer2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="A particle of light" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q8answer"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="an Imperial Guard" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q8answer3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="The Millennium Falcon" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q8destiny"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/destiny" />
         </RadioGroup>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/rounded_corners_light"
+            style="@style/questionText"
             android:padding="8dp"
-            android:text="Question 9: These are the final hours of..."
-            android:textAllCaps="true"
-            android:textColor="@color/colorAccent"
-            android:textSize="16sp" />
+            android:text="Question 9: These are the final hours of..." />
 
-        <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp">
+        <RadioGroup style="@style/radioGroup">
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q9answer2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="My death" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q9answer3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="My sons" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q9answer"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="Halt! You violated the law." />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q9destiny"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/destiny" />
         </RadioGroup>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/rounded_corners_light"
+            style="@style/questionText"
             android:padding="8dp"
-            android:text="Question 10: What?"
-            android:textAllCaps="true"
-            android:textColor="@color/colorAccent"
-            android:textSize="16sp" />
+            android:text="Question 10: What?" />
 
-        <RadioGroup
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp">
+        <RadioGroup style="@style/radioButton">
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q10answer"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="Subaru WRX STI" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q10answer2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="WRX STI" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q10answer3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="STI" />
 
-            <RadioButton
+            <RadioButton style="@style/radioButton"
                 android:id="@+id/q10destiny"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:onClick="onQuestionsRadioButtonClicked"
                 android:padding="8dp"
                 android:text="@string/destiny" />
         </RadioGroup>
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/rounded_corners_light"
+            style="@style/questionText"
             android:padding="8dp"
-            android:text="Question 11: Did you see the mudcrabs by the lake?"
-            android:textAllCaps="true"
-            android:textColor="@color/colorAccent"
-            android:textSize="16sp" />
+            android:text="Question 11: Did you see the mudcrabs by the lake?" />
 
-        <CheckBox
+        <CheckBox style="@style/checkBox"
             android:id="@+id/q11a1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
-            android:onClick="onQuestionsCheckboxClicked"
             android:padding="8dp"
             android:text="The Dark Brotherhood must have killed them!" />
 
-        <CheckBox
+        <CheckBox style="@style/checkBox"
             android:id="@+id/q11aw1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
-            android:onClick="onQuestionsCheckboxClicked"
             android:padding="8dp"
             android:text="No please! Ahhhhhhhhhm sorry!" />
 
-        <CheckBox
+        <CheckBox style="@style/checkBox"
             android:id="@+id/q11a2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
-            android:onClick="onQuestionsCheckboxClicked"
             android:padding="8dp"
             android:text="By Azure, it's the grand champion!" />
 
-        <CheckBox
+        <CheckBox style="@style/checkBox"
             android:id="@+id/q11destiny"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
-            android:onClick="onQuestionsCheckboxClicked"
             android:padding="8dp"
             android:text="@string/destiny" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/rounded_corners_light"
+            style="@style/questionText"
             android:padding="8dp"
-            android:text="Question 12: Are you the count?"
-            android:textAllCaps="true"
-            android:textColor="@color/colorAccent"
-            android:textSize="16sp" />
+            android:text="Question 12: Are you the count?" />
 
-        <CheckBox
+        <CheckBox style="@style/checkBox"
             android:id="@+id/q12a1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
             android:padding="8dp"
             android:text="Yes." />
 
-        <CheckBox
+        <CheckBox style="@style/checkBox"
             android:id="@+id/q12a2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
             android:padding="8dp"
             android:text="Then go away." />
 
-        <CheckBox
+        <CheckBox style="@style/checkBox"
             android:id="@+id/q12a3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
             android:padding="8dp"
             android:text="You're a liar." />
 
-        <CheckBox
+        <CheckBox style="@style/checkBox"
             android:id="@+id/q12destiny"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
             android:padding="8dp"
             android:text="@string/destiny" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/rounded_corners_light"
+            style="@style/questionText"
             android:padding="8dp"
-            android:text="Question 13: Why... won't... you... die?!"
-            android:textAllCaps="true"
-            android:textColor="@color/colorAccent"
-            android:textSize="16sp" />
+            android:text="Question 13: Why... won't... you... die?!" />
 
-        <CheckBox
+        <CheckBox style="@style/checkBox"
             android:id="@+id/q13a1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
             android:padding="8dp"
             android:text="Breton scum." />
 
-        <CheckBox
+        <CheckBox style="@style/checkBox"
             android:id="@+id/q13a2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
             android:padding="8dp"
             android:text="Now you will know pain!" />
 
-        <CheckBox
+        <CheckBox style="@style/checkBox"
             android:id="@+id/q13a3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
             android:padding="8dp"
             android:text="Stop right there. Criminal scum" />
 
-        <CheckBox
+        <CheckBox style="@style/checkBox"
             android:id="@+id/q13destiny"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
             android:padding="8dp"
             android:text="@string/destiny" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="16dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/rounded_corners_light"
+            style="@style/questionText"
             android:padding="8dp"
-            android:text="Question 14: Of the following, what would an Imperial Guard consider illegal?"
-            android:textAllCaps="true"
-            android:textColor="@color/colorAccent"
-            android:textSize="16sp" />
+            android:text="Question 14: Of the following, what would an Imperial Guard consider illegal?" />
 
-        <CheckBox
+        <CheckBox style="@style/checkBox"
             android:id="@+id/q14a1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
             android:padding="8dp"
             android:text="Attacking another citizen." />
 
-        <CheckBox
+        <CheckBox style="@style/checkBox"
             android:id="@+id/q14a2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
             android:padding="8dp"
             android:text="Picking up a book in the library." />
 
-        <CheckBox
+        <CheckBox style="@style/checkBox"
             android:id="@+id/q14aw1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
             android:padding="8dp"
             android:text="Knocking another citizen out cold with one punch." />
 
-        <CheckBox
+        <CheckBox style="@style/checkBox"
             android:id="@+id/q14destiny"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
             android:padding="8dp"
             android:text="@string/destiny" />
 
