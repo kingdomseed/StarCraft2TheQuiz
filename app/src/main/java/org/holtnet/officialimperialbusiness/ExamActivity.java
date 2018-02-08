@@ -17,16 +17,13 @@ public class ExamActivity extends AppCompatActivity {
 
     EditText userName;
 
-    RadioButton q1Destiny, q2Destiny, q3Destiny, q4Destiny, q5Destiny, q6Destiny, q7Destiny, q8Destiny, q9Destiny, q10Destiny;
-
     CheckBox q11Answer1, q11Answer2, q11Wrong, q12Answer1, q12Answer2, q12Answer3, q13Answer1, q13Answer2,
             q13Answer3, q14Answer1, q14Answer2, q14Wrong, q11Destiny, q12Destiny, q13Destiny, q14Destiny;
 
     Button endButton;
 
-    boolean q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, destinyRadio, destiny11, destiny12, destiny13, destiny14;
-
-    Intent submitIntent;
+    boolean q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14;
+    boolean q1d, q2d, q3d, q4d, q5d, q6d, q7d, q8d, q9d, q10d,  destinyRadio, destiny11, destiny12, destiny13, destiny14;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,18 +49,6 @@ public class ExamActivity extends AppCompatActivity {
         q14Answer2 = findViewById(R.id.q14a2);
         q14Wrong = findViewById(R.id.q14aw1);
 
-        // Destiny response ids -- responses will take you to destiny activity.
-        q1Destiny = findViewById(R.id.q1destiny);
-        q2Destiny = findViewById(R.id.q2destiny);
-        q3Destiny = findViewById(R.id.q3destiny);
-        q4Destiny = findViewById(R.id.q4destiny);
-        q5Destiny = findViewById(R.id.q5destiny);
-        q6Destiny = findViewById(R.id.q6destiny);
-        q7Destiny = findViewById(R.id.q7destiny);
-        q8Destiny = findViewById(R.id.q8destiny);
-        q9Destiny = findViewById(R.id.q9destiny);
-        q10Destiny = findViewById(R.id.q10destiny);
-
         q11Destiny = findViewById(R.id.q11destiny);
         q12Destiny = findViewById(R.id.q12destiny);
         q13Destiny = findViewById(R.id.q13destiny);
@@ -87,33 +72,105 @@ public class ExamActivity extends AppCompatActivity {
         boolean checked = ((RadioButton) view).isChecked();
         switch (view.getId()) {
             case R.id.q1answer:
+            case R.id.q1answer2:
+            case R.id.q1answer3:
+            case R.id.q1destiny:
+                if(view.getId() == R.id.q1destiny)
+                {
+                    q1d = checked;
+                    Toast.makeText(this, "Destiny q1: " + q1d, Toast.LENGTH_SHORT).show();
+                }
                 q1 = checked;
+                Toast.makeText(this, "q1: " + q1, Toast.LENGTH_SHORT).show();
                 break;
             case R.id.q2answer:
+            case R.id.q2answer2:
+            case R.id.q2answer3:
+            case R.id.q2destiny:
+                if(view.getId() == R.id.q2destiny)
+                {
+                    q2d = checked;
+                }
                 q2 = checked;
                 break;
             case R.id.q3answer:
+            case R.id.q3answer2:
+            case R.id.q3answer3:
+            case R.id.q3destiny:
+                if(view.getId() == R.id.q3destiny)
+                {
+                    q3d = checked;
+                }
                 q3 = checked;
                 break;
             case R.id.q4answer:
+            case R.id.q4answer2:
+            case R.id.q4answer3:
+            case R.id.q4destiny:
+                if(view.getId() == R.id.q4destiny)
+                {
+                    q4d = checked;
+                }
                 q4 = checked;
                 break;
             case R.id.q5answer:
+            case R.id.q5answer2:
+            case R.id.q5answer3:
+            case R.id.q5destiny:
+                if(view.getId() == R.id.q5destiny)
+                {
+                    q5d = checked;
+                }
                 q5 = checked;
                 break;
             case R.id.q6answer:
+            case R.id.q6answer2:
+            case R.id.q6answer3:
+            case R.id.q6destiny:
+                if(view.getId() == R.id.q6destiny)
+                {
+                    q6d = checked;
+                }
                 q6 = checked;
                 break;
             case R.id.q7answer:
+            case R.id.q7answer2:
+            case R.id.q7answer3:
+            case R.id.q7destiny:
+                if(view.getId() == R.id.q7destiny)
+                {
+                    q7d = checked;
+                }
                 q7 = checked;
                 break;
             case R.id.q8answer:
+            case R.id.q8answer2:
+            case R.id.q8answer3:
+            case R.id.q8destiny:
+                if(view.getId() == R.id.q8destiny)
+                {
+                    q8d = checked;
+                }
                 q8 = checked;
                 break;
             case R.id.q9answer:
+            case R.id.q9answer2:
+            case R.id.q9answer3:
+            case R.id.q9destiny:
+                if(view.getId() == R.id.q9destiny)
+                {
+                    q9d = checked;
+                }
                 q9 = checked;
                 break;
             case R.id.q10answer:
+            case R.id.q10answer2:
+            case R.id.q10answer3:
+            case R.id.q10destiny:
+                if(view.getId() == R.id.q10destiny)
+                {
+                    q10d = checked;
+                }
                 q10 = checked;
                 break;
             default:
@@ -130,6 +187,7 @@ public class ExamActivity extends AppCompatActivity {
             case R.id.q11aw1:
             case R.id.q11destiny:
                 q11 = q11Answer1.isChecked() && q11Answer2.isChecked() && !q11Wrong.isChecked() && !q11Destiny.isChecked();
+                Toast.makeText(this, "q-11: " + q11, Toast.LENGTH_SHORT).show();
                 break;
             case R.id.q12a1:
             case R.id.q12a2:
@@ -156,17 +214,30 @@ public class ExamActivity extends AppCompatActivity {
 
     private void DestinyChecker() {
         // Check if all values are set to Destiny and set the correct variables to true.
-        if (q1Destiny.isChecked() && q2Destiny.isChecked() && q3Destiny.isChecked() && q4Destiny.isChecked() && q5Destiny.isChecked() &&
-                q6Destiny.isChecked() && q7Destiny.isChecked() && q8Destiny.isChecked() && q9Destiny.isChecked() && q10Destiny.isChecked()) {
+        if (q1d && q2d && q3d && q4d && q5d && q6d && q7d && q8d && q9d && q10d) {
             destinyRadio = true;
-            //Toast.makeText(this, "" + destinyRadio, Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Destiny Radio: " + destinyRadio, Toast.LENGTH_SHORT).show();
         }
-        if (q11Destiny.isChecked() && q12Destiny.isChecked() && q13Destiny.isChecked() && q14Destiny.isChecked()) {
+
+        // check the truth values of all checkboxes.
+        boolean destinyCheckBoxes = q11Destiny.isChecked() && q12Destiny.isChecked() && q13Destiny.isChecked() && q14Destiny.isChecked();
+
+        // q11 - q14 checkboxes are all false (therefore the boolean is true.)
+        boolean q11CheckBoxes = !q11Answer1.isChecked() && !q11Answer2.isChecked() && !q11Wrong.isChecked();
+        boolean q12CheckBoxes = !q12Answer1.isChecked() && !q12Answer2.isChecked() && !q12Answer3.isChecked();
+        boolean q13CheckBoxes = !q13Answer1.isChecked() && !q13Answer2.isChecked() && !q13Answer3.isChecked();
+        boolean q14CheckBoxes = !q14Answer1.isChecked() && !q14Answer2.isChecked() && !q14Wrong.isChecked();
+
+        // determine that the checkboxes are as follows:
+        // destinyCheckBoxes = true;
+        // q11-14CheckBoxes = it is true that they are false (unchecked)
+        if (destinyCheckBoxes && !q11CheckBoxes && !q12CheckBoxes && !q13CheckBoxes && !q14CheckBoxes) {
             destiny11 = true;
             destiny12 = true;
             destiny13 = true;
             destiny14 = true;
-            Toast.makeText(this, "q11 - q14 are True", Toast.LENGTH_SHORT).show();
+            boolean tester = destiny11 && destiny12 && destiny13 && destiny14;
+            Toast.makeText(this, "Truth values: " + tester, Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -174,6 +245,8 @@ public class ExamActivity extends AppCompatActivity {
 
         DestinyChecker();
         boolean destinyTruthCheck = (destinyRadio && destiny11 && destiny12 && destiny13 && destiny14);
+
+        Intent submitIntent;
 
         if (destinyTruthCheck) {
             submitIntent = new Intent(ExamActivity.this, DestinyActivity.class);

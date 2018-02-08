@@ -73,6 +73,7 @@
                 android:onClick="onQuestionsRadioButtonClicked"/>
 
             <RadioButton
+                android:id="@+id/q1answer2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -80,6 +81,7 @@
                 android:text="@string/embodiment_of_possibility" />
 
             <RadioButton
+                android:id="@+id/q1answer3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -116,6 +118,7 @@
             android:layout_marginTop="8dp">
 
             <RadioButton
+                android:id="@+id/q2answer2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -123,6 +126,7 @@
                 android:text="@string/embodiment_of_even" />
 
             <RadioButton
+                android:id="@+id/q2answer3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -177,6 +181,7 @@
                 android:onClick="onQuestionsRadioButtonClicked"/>
 
             <RadioButton
+                android:id="@+id/q3answer2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -184,6 +189,7 @@
                 android:text="@string/embodiment_of_possibility" />
 
             <RadioButton
+                android:id="@+id/q3answer3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -229,6 +235,7 @@
                 android:onClick="onQuestionsRadioButtonClicked"/>
 
             <RadioButton
+                android:id="@+id/q4answer2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -236,6 +243,7 @@
                 android:text="@string/embodiment_of_beauty" />
 
             <RadioButton
+                android:id="@+id/q4answer3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -281,6 +289,7 @@
                 android:onClick="onQuestionsRadioButtonClicked"/>
 
             <RadioButton
+                android:id="@+id/q5answer2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -288,6 +297,7 @@
                 android:text="@string/embodiment_of_magnificence" />
 
             <RadioButton
+                android:id="@+id/q5answer3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -324,6 +334,7 @@
             android:layout_marginTop="8dp">
 
             <RadioButton
+                android:id="@+id/q6answer2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -340,6 +351,7 @@
                 android:onClick="onQuestionsRadioButtonClicked"/>
 
             <RadioButton
+                android:id="@+id/q6answer3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -376,6 +388,7 @@
             android:layout_marginTop="8dp">
 
             <RadioButton
+                android:id="@+id/q7answer2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -392,6 +405,7 @@
                 android:onClick="onQuestionsRadioButtonClicked"/>
 
             <RadioButton
+                android:id="@+id/q7answer3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -429,6 +443,7 @@
             android:onClick="onQuestionsRadioButtonClicked">
 
             <RadioButton
+                android:id="@+id/q8answer2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -445,6 +460,7 @@
                 android:onClick="onQuestionsRadioButtonClicked" />
 
             <RadioButton
+                android:id="@+id/q8answer3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -481,6 +497,7 @@
             android:layout_marginTop="8dp">
 
             <RadioButton
+                android:id="@+id/q9answer2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -488,6 +505,7 @@
                 android:text="My death" />
 
             <RadioButton
+                android:id="@+id/q9answer3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -542,6 +560,7 @@
                 android:onClick="onQuestionsRadioButtonClicked"/>
 
             <RadioButton
+                android:id="@+id/q10answer2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
@@ -549,6 +568,7 @@
                 android:text="WRX STI" />
 
             <RadioButton
+                android:id="@+id/q10answer3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"

@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/OfficialImperialBusiness.iml" filepath="$PROJECT_DIR$/OfficialImperialBusiness.iml" />
-      <module fileurl="file://D:\Cloud\OneDrive\Coding\StudioProjects\OfficialImperialBusiness\OfficialImperialBusiness.iml" filepath="D:\Cloud\OneDrive\Coding\StudioProjects\OfficialImperialBusiness\OfficialImperialBusiness.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://D:\Cloud\OneDrive\Coding\StudioProjects\OfficialImperialBusiness\app\app.iml" filepath="D:\Cloud\OneDrive\Coding\StudioProjects\OfficialImperialBusiness\app\app.iml" />
     </modules>
   </component>
 </project>
