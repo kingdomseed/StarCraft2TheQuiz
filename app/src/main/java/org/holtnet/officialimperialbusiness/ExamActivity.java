@@ -1,6 +1,7 @@
 package org.holtnet.officialimperialbusiness;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -28,6 +29,7 @@ public class ExamActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_exam);
 
         // Get all relevant views for correct answers, EditText, and the Destiny answers
