@@ -37,7 +37,7 @@
             android:layout_marginEnd="16dp"
             android:background="@drawable/rounded_corners_dark"
             android:padding="8dp"
-            android:text="Your score is over 9000."
+            android:text="@string/over_9000"
             android:textAllCaps="true"
             android:textColor="@color/colorAccent"
             android:textSize="24sp" />
