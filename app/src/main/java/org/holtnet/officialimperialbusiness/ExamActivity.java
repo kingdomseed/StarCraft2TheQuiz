@@ -14,6 +14,9 @@ public class ExamActivity extends AppCompatActivity {
     // This field allows user to enter their name and have it displayed in the next activity.
     private EditText userName;
 
+    // These variables represent the normal radio buttons that will be scored by the call to the scoreCheck() method.
+    private RadioButton q1Answer, q2Answer, q3Answer, q4Answer, q5Answer, q6Answer, q7Answer, q8Answer, q9Answer, q10Answer;
+
     // These variables represent the RadioButtons with the Destiny text. They are used to check the "Checked" status of these questions in the
     // DestinyChecked() method which determines whether the user will progress to the Destiny Activity or not.
     // The variable naming convention is: q for question followed by a number representing the question number and the word Destiny.
@@ -35,6 +38,18 @@ public class ExamActivity extends AppCompatActivity {
 
         // Get the view for the editText
         userName = findViewById(R.id.EnterNameID);
+
+        // Get the views for the normal radio buttons;
+        q1Answer = findViewById(R.id.q1answer);
+        q2Answer = findViewById(R.id.q2answer);
+        q3Answer = findViewById(R.id.q3answer);
+        q4Answer = findViewById(R.id.q4answer);
+        q5Answer = findViewById(R.id.q5answer);
+        q6Answer = findViewById(R.id.q6answer);
+        q7Answer = findViewById(R.id.q7answer);
+        q8Answer = findViewById(R.id.q8answer);
+        q9Answer = findViewById(R.id.q9answer);
+        q10Answer = findViewById(R.id.q10answer);
 
         // Get the views for the checkboxes
         q11Answer1 = findViewById(R.id.q11a1);
@@ -83,83 +98,6 @@ public class ExamActivity extends AppCompatActivity {
         });
     }
 
-    // Check styles.xml for link between this method and the activity xml.
-    // This method runs when a radio button is checked
-    public void onQuestionsRadioButtonClicked(View view) {
-
-        // The radio button view is passed into the method and its isChecked() method is called
-        // and saved to the checked boolean. Then the Id is determined by the switch statement
-        // and the checked status (true or false) is passed to the appropriate question boolean
-        // indicated by the q followed by a number. This check occurs everything a radio button is
-        // checked or changed to ensure the variable is updated. There is probably a simpler way to
-        // do this.
-        boolean checked = ((RadioButton) view).isChecked();
-        switch (view.getId()) {
-            case R.id.q1answer:
-                q1 = checked;
-                break;
-            case R.id.q2answer:
-                q2 = checked;
-                break;
-            case R.id.q3answer:
-                q3 = checked;
-                break;
-            case R.id.q4answer:
-                q4 = checked;
-                break;
-            case R.id.q5answer:
-                q5 = checked;
-                break;
-            case R.id.q6answer:
-                q6 = checked;
-                break;
-            case R.id.q7answer:
-                q7 = checked;
-                break;
-            case R.id.q8answer:
-                q8 = checked;
-                break;
-            case R.id.q9answer:
-                q9 = checked;
-                break;
-            case R.id.q10answer:
-                q10 = checked;
-                break;
-            default:
-                break;
-        }
-    }
-
-    // Check styles.xml for link between this method and the activity xml.
-    public void onQuestionsCheckboxClicked(View view) {
-        // Verify which checkboxes are checked and which are not, assigning a true or false value to the correct variable based on which question is being checked.
-
-        switch (view.getId()) {
-            case R.id.q11a1:
-            case R.id.q11a2:
-            case R.id.q11aw1:
-            case R.id.q11destiny:
-                q11 = q11Answer1.isChecked() && q11Answer2.isChecked() && !q11Wrong.isChecked() && !q11Destiny.isChecked();
-            case R.id.q12a1:
-            case R.id.q12a2:
-            case R.id.q12a3:
-            case R.id.q12destiny:
-                q12 = q12Answer1.isChecked() && q12Answer2.isChecked() && q12Answer3.isChecked() && !q12Destiny.isChecked();
-            case R.id.q13a1:
-            case R.id.q13a2:
-            case R.id.q13a3:
-            case R.id.q13destiny:
-                q13 = q13Answer1.isChecked() && q13Answer2.isChecked() && q13Answer3.isChecked() && !q13Destiny.isChecked();
-            case R.id.q14a1:
-            case R.id.q14a2:
-            case R.id.q14aw1:
-            case R.id.q14destiny:
-                q14 = q14Answer1.isChecked() && q14Answer2.isChecked() && !q14Wrong.isChecked() && !q14Destiny.isChecked();
-            default:
-                break;
-        }
-    }
-
     private void DestinyChecker() {
 
         // Check if all values are set to Destiny and set the correct variables to true.
@@ -168,14 +106,14 @@ public class ExamActivity extends AppCompatActivity {
             destinyRadio = true;
         }
 
-        if (q11Destiny.isChecked() && q12Destiny.isChecked() && q13Destiny.isChecked() && q14Destiny.isChecked()) {
+        // Check that the Destiny check boxes are checked. This may not work as intended...
+        if (q11Destiny.isChecked() && q12Destiny.isChecked() && q13Destiny.isChecked() && q14Destiny.isChecked() && !q11 && !q12 && !q13 && !q14) {
             destiny11 = true;
             destiny12 = true;
             destiny13 = true;
             destiny14 = true;
 
             // Check if the EditText has the word "Destiny"
-
             String lowerCaseUserName = userName.getText().toString();
             if (lowerCaseUserName.toLowerCase().equals("destiny")) {
                 destinyEditText = true;
@@ -184,6 +122,24 @@ public class ExamActivity extends AppCompatActivity {
     }
 
     private int ScoreCheck() {
+
+        // Set booleans q1 through q10 to true or false based on whether the correct radioButton is checked.
+        q1 = q1Answer.isChecked();
+        q2 = q2Answer.isChecked();
+        q3 = q3Answer.isChecked();
+        q4 = q4Answer.isChecked();
+        q5 = q5Answer.isChecked();
+        q6 = q6Answer.isChecked();
+        q7 = q7Answer.isChecked();
+        q8 = q8Answer.isChecked();
+        q9 = q9Answer.isChecked();
+        q10 = q10Answer.isChecked();
+
+        // Check the t and f of q11-q14.
+        q11 = q11Answer1.isChecked() && q11Answer2.isChecked() && !q11Wrong.isChecked() && !q11Destiny.isChecked();
+        q12 = q12Answer1.isChecked() && q12Answer2.isChecked() && q12Answer3.isChecked() && !q12Destiny.isChecked();
+        q13 = q13Answer1.isChecked() && q13Answer2.isChecked() && q13Answer3.isChecked() && !q13Destiny.isChecked();
+        q14 = q14Answer1.isChecked() && q14Answer2.isChecked() && !q14Wrong.isChecked() && !q14Destiny.isChecked();
 
         //Check appropriate variables and score the exam just before passing it to the next activity.
         if (q1) {
@@ -229,14 +185,15 @@ public class ExamActivity extends AppCompatActivity {
             checkboxScore++;
         }
 
+        // return the score.
         return checkboxScore + radioScore;
 
     }
 
     public void chooseIntent() {
 
-        DestinyChecker();
         int score = ScoreCheck();
+        DestinyChecker();
         boolean destinyTruthCheck = (destinyRadio && destiny11 && destiny12 && destiny13 && destiny14 && destinyEditText);
         Intent submitIntent;
 
