@@ -26,7 +26,7 @@
         <TextView
             style="@style/questionText"
             android:padding="8dp"
-            android:text="Enter your name: " />
+            android:text="@string/enter_your_name" />
 
         <EditText
             android:id="@+id/EnterNameID"
@@ -39,27 +39,31 @@
         <TextView
             style="@style/questionText"
             android:padding="8dp"
-            android:text="Question 1: Chris is..." />
+            android:text="@string/question_1_chris_is" />
 
         <RadioGroup style="@style/radioGroup">
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q1answer"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_beauty" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q1answer2"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_possibility" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q1answer3"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_nothing" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q1destiny"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/destiny" />
         </RadioGroup>
@@ -67,27 +71,31 @@
         <TextView
             style="@style/questionText"
             android:padding="8dp"
-            android:text="Question 2: Steven is..." />
+            android:text="@string/question_2_steven_is" />
 
         <RadioGroup style="@style/radioGroup">
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q2answer2"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_even" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q2answer3"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_beauty" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q2answer"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_magnificence" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q2destiny"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/destiny" />
         </RadioGroup>
@@ -95,27 +103,31 @@
         <TextView
             style="@style/questionText"
             android:padding="8dp"
-            android:text="Question 3: Tim is..." />
+            android:text="@string/question_3_tim_is" />
 
         <RadioGroup style="@style/radioGroup">
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q3answer"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_nothing" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q3answer2"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_possibility" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q3answer3"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/embodiment_winnebago" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q3destiny"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/destiny" />
         </RadioGroup>
@@ -123,27 +135,31 @@
         <TextView
             style="@style/questionText"
             android:padding="8dp"
-            android:text="Question 4: Mark is..." />
+            android:text="@string/question_4_mark_is" />
 
         <RadioGroup style="@style/radioGroup">
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q4answer"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_perfection" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q4answer2"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_beauty" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q4answer3"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_nothing" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q4destiny"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/destiny" />
         </RadioGroup>
@@ -151,27 +167,31 @@
         <TextView
             style="@style/questionText"
             android:padding="8dp"
-            android:text="Question 5: Josh is..." />
+            android:text="@string/question_5_josh_is" />
 
         <RadioGroup style="@style/radioGroup">
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q5answer"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_possibility" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q5answer2"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_magnificence" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q5answer3"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_even" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q5destiny"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/destiny" />
         </RadioGroup>
@@ -179,27 +199,31 @@
         <TextView
             style="@style/questionText"
             android:padding="8dp"
-            android:text="Question 6: Jack is..." />
+            android:text="@string/question_6_jack_is" />
 
         <RadioGroup style="@style/radioGroup">
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q6answer2"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_beauty" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q6answer"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/embodiment_winnebago" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q6answer3"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_nothing" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q6destiny"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/destiny" />
         </RadioGroup>
@@ -207,27 +231,31 @@
         <TextView
             style="@style/questionText"
             android:padding="8dp"
-            android:text="Question 7: Do you even know what Jason is though?" />
+            android:text="@string/question_7_do_you_even_know_what_jason_is_though" />
 
         <RadioGroup style="@style/radioGroup">
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q7answer2"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_nothing" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q7answer"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/embodiment_of_even" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q7answer3"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/embodiment_winnebago" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q7destiny"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/destiny" />
         </RadioGroup>
@@ -235,27 +263,31 @@
         <TextView
             style="@style/questionText"
             android:padding="8dp"
-            android:text="Question 8: What is the fastest object in the universe?" />
+            android:text="@string/question_8_what_is_the_fastest_object_in_the_universe" />
 
         <RadioGroup style="@style/radioGroup">
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q8answer2"
+                style="@style/radioButton"
                 android:padding="8dp"
-                android:text="A particle of light" />
+                android:text="@string/a_particle_of_light" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q8answer"
+                style="@style/radioButton"
                 android:padding="8dp"
-                android:text="an Imperial Guard" />
+                android:text="@string/an_imperial_guard" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q8answer3"
+                style="@style/radioButton"
                 android:padding="8dp"
-                android:text="The Millennium Falcon" />
+                android:text="@string/the_millennium_falcon" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q8destiny"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/destiny" />
         </RadioGroup>
@@ -263,27 +295,31 @@
         <TextView
             style="@style/questionText"
             android:padding="8dp"
-            android:text="Question 9: These are the final hours of..." />
+            android:text="@string/question_9_these_are_the_final_hours_of" />
 
         <RadioGroup style="@style/radioGroup">
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q9answer2"
+                style="@style/radioButton"
                 android:padding="8dp"
-                android:text="My death" />
+                android:text="@string/my_death" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q9answer3"
+                style="@style/radioButton"
                 android:padding="8dp"
-                android:text="My sons" />
+                android:text="@string/my_sons" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q9answer"
+                style="@style/radioButton"
                 android:padding="8dp"
-                android:text="Halt! You violated the law." />
+                android:text="@string/halt_you_violated_the_law" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q9destiny"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/destiny" />
         </RadioGroup>
@@ -291,27 +327,31 @@
         <TextView
             style="@style/questionText"
             android:padding="8dp"
-            android:text="Question 10: What?" />
+            android:text="@string/question_10_what" />
 
         <RadioGroup style="@style/radioButton">
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q10answer"
+                style="@style/radioButton"
                 android:padding="8dp"
-                android:text="Subaru WRX STI" />
+                android:text="@string/subaru_wrx_sti" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q10answer2"
+                style="@style/radioButton"
                 android:padding="8dp"
-                android:text="WRX STI" />
+                android:text="@string/wrx_sti" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q10answer3"
+                style="@style/radioButton"
                 android:padding="8dp"
-                android:text="STI" />
+                android:text="@string/sti" />
 
-            <RadioButton style="@style/radioButton"
+            <RadioButton
                 android:id="@+id/q10destiny"
+                style="@style/radioButton"
                 android:padding="8dp"
                 android:text="@string/destiny" />
         </RadioGroup>
@@ -319,100 +359,116 @@
         <TextView
             style="@style/questionText"
             android:padding="8dp"
-            android:text="Question 11: Did you see the mudcrabs by the lake?" />
+            android:text="@string/question_11_did_you_see_the_mudcrabs_by_the_lake" />
 
-        <CheckBox style="@style/checkBox"
+        <CheckBox
             android:id="@+id/q11a1"
+            style="@style/checkBox"
             android:padding="8dp"
-            android:text="The Dark Brotherhood must have killed them!" />
+            android:text="@string/the_dark_brotherhood_must_have_killed_them" />
 
-        <CheckBox style="@style/checkBox"
+        <CheckBox
             android:id="@+id/q11aw1"
+            style="@style/checkBox"
             android:padding="8dp"
-            android:text="No please! Ahhhhhhhhhm sorry!" />
+            android:text="@string/no_please_ahhhhhhhhhm_sorry" />
 
-        <CheckBox style="@style/checkBox"
+        <CheckBox
             android:id="@+id/q11a2"
+            style="@style/checkBox"
             android:padding="8dp"
-            android:text="By Azure, it's the grand champion!" />
+            android:text="@string/by_azure_it_s_the_grand_champion" />
 
-        <CheckBox style="@style/checkBox"
+        <CheckBox
             android:id="@+id/q11destiny"
+            style="@style/checkBox"
             android:padding="8dp"
             android:text="@string/destiny" />
 
         <TextView
             style="@style/questionText"
             android:padding="8dp"
-            android:text="Question 12: Are you the count?" />
+            android:text="@string/question_12_are_you_the_count" />
 
-        <CheckBox style="@style/checkBox"
+        <CheckBox
             android:id="@+id/q12a1"
+            style="@style/checkBox"
             android:padding="8dp"
-            android:text="Yes." />
+            android:text="@string/yes" />
 
-        <CheckBox style="@style/checkBox"
+        <CheckBox
             android:id="@+id/q12a2"
+            style="@style/checkBox"
             android:padding="8dp"
-            android:text="Then go away." />
+            android:text="@string/then_go_away" />
 
-        <CheckBox style="@style/checkBox"
+        <CheckBox
             android:id="@+id/q12a3"
+            style="@style/checkBox"
             android:padding="8dp"
-            android:text="You're a liar." />
+            android:text="@string/you_re_a_liar" />
 
-        <CheckBox style="@style/checkBox"
+        <CheckBox
             android:id="@+id/q12destiny"
+            style="@style/checkBox"
             android:padding="8dp"
             android:text="@string/destiny" />
 
         <TextView
             style="@style/questionText"
             android:padding="8dp"
-            android:text="Question 13: Why... won't... you... die?!" />
+            android:text="@string/question_13_why_won_t_you_die" />
 
-        <CheckBox style="@style/checkBox"
+        <CheckBox
             android:id="@+id/q13a1"
+            style="@style/checkBox"
             android:padding="8dp"
-            android:text="Breton scum." />
+            android:text="@string/breton_scum" />
 
-        <CheckBox style="@style/checkBox"
+        <CheckBox
             android:id="@+id/q13a2"
+            style="@style/checkBox"
             android:padding="8dp"
-            android:text="Now you will know pain!" />
+            android:text="@string/now_you_will_know_pain" />
 
-        <CheckBox style="@style/checkBox"
+        <CheckBox
             android:id="@+id/q13a3"
+            style="@style/checkBox"
             android:padding="8dp"
-            android:text="Stop right there. Criminal scum" />
+            android:text="@string/stop_right_there_criminal_scum" />
 
-        <CheckBox style="@style/checkBox"
+        <CheckBox
             android:id="@+id/q13destiny"
+            style="@style/checkBox"
             android:padding="8dp"
             android:text="@string/destiny" />
 
         <TextView
             style="@style/questionText"
             android:padding="8dp"
-            android:text="Question 14: Of the following, what would an Imperial Guard consider illegal?" />
+            android:text="@string/question_14_of_the_following_what_would_an_imperial_guard_consider_illegal" />
 
-        <CheckBox style="@style/checkBox"
+        <CheckBox
             android:id="@+id/q14a1"
+            style="@style/checkBox"
             android:padding="8dp"
-            android:text="Attacking another citizen." />
+            android:text="@string/attacking_another_citizen" />
 
-        <CheckBox style="@style/checkBox"
+        <CheckBox
             android:id="@+id/q14a2"
+            style="@style/checkBox"
             android:padding="8dp"
-            android:text="Picking up a book in the library." />
+            android:text="@string/picking_up_a_book_in_the_library" />
 
-        <CheckBox style="@style/checkBox"
+        <CheckBox
             android:id="@+id/q14aw1"
+            style="@style/checkBox"
             android:padding="8dp"
-            android:text="Knocking another citizen out cold with one punch." />
+            android:text="@string/knocking_another_citizen_out_cold_with_one_punch" />
 
-        <CheckBox style="@style/checkBox"
+        <CheckBox
             android:id="@+id/q14destiny"
+            style="@style/checkBox"
             android:padding="8dp"
             android:text="@string/destiny" />
 
@@ -426,7 +482,7 @@
             android:layout_marginTop="16dp"
             android:background="@drawable/rounded_corners_dark"
             android:padding="8dp"
-            android:text="Submit for Scoring"
+            android:text="@string/submit_for_scoring"
             android:textColor="@color/colorAccent" />
 
     </LinearLayout>

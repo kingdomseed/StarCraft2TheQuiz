@@ -22,6 +22,7 @@ public class DestinyActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent beginIntent = new Intent(DestinyActivity.this, MainActivity.class);
                 startActivity(beginIntent);
+                finish();
             }
         });
     }

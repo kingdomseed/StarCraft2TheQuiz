@@ -21,7 +21,7 @@
             android:layout_marginTop="16dp"
             android:background="@drawable/rounded_corners_dark"
             android:padding="8dp"
-            android:text="Your final score"
+            android:text="@string/final_score_text"
             android:textAllCaps="true"
             android:textColor="@color/colorAccent"
             android:textSize="32sp"
@@ -37,7 +37,7 @@
             android:layout_marginEnd="16dp"
             android:background="@drawable/rounded_corners_dark"
             android:padding="8dp"
-            android:text="0%"
+            android:text="@string/zero_precent"
             android:textAllCaps="true"
             android:textColor="@color/colorAccent"
             android:textSize="32sp"
@@ -55,6 +55,20 @@
             android:background="@drawable/rounded_corners_dark"
             android:padding="8dp"
             android:text="@string/return_to_main_menu"
+            android:textColor="@color/colorAccent" />
+
+        <Button
+            android:id="@+id/share_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="32dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/rounded_corners_dark"
+            android:padding="8dp"
+            android:text="@string/share_button"
             android:textColor="@color/colorAccent" />
 
         <TextView

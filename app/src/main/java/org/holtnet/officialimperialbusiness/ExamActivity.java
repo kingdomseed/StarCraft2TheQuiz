@@ -203,6 +203,7 @@ public class ExamActivity extends AppCompatActivity {
             finish();
         } else {
             submitIntent = new Intent(ExamActivity.this, ResultsActivity.class);
+            submitIntent.putExtra("USER_NAME", userName.getText().toString());
             submitIntent.putExtra("FINAL_SCORE", score);
             startActivity(submitIntent);
             finish();
