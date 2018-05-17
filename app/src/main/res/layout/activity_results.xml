@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/a12_phone"
+    android:background="@drawable/background"
     android:fillViewport="true"
     android:orientation="vertical"
     tools:context="org.holtnet.officialimperialbusiness.MainActivity">
@@ -21,7 +21,7 @@
             android:layout_marginTop="16dp"
             android:background="@drawable/rounded_corners_dark"
             android:padding="8dp"
-            android:text="@string/final_score_text"
+            android:text=""
             android:textAllCaps="true"
             android:textColor="@color/colorAccent"
             android:textSize="32sp"
@@ -37,7 +37,7 @@
             android:layout_marginEnd="16dp"
             android:background="@drawable/rounded_corners_dark"
             android:padding="8dp"
-            android:text="@string/zero_precent"
+            android:text=""
             android:textAllCaps="true"
             android:textColor="@color/colorAccent"
             android:textSize="32sp"
@@ -54,7 +54,7 @@
             android:layout_marginEnd="16dp"
             android:background="@drawable/rounded_corners_dark"
             android:padding="8dp"
-            android:text="@string/return_to_main_menu"
+            android:text=""
             android:textColor="@color/colorAccent" />
 
         <Button
@@ -68,7 +68,7 @@
             android:layout_marginStart="16dp"
             android:background="@drawable/rounded_corners_dark"
             android:padding="8dp"
-            android:text="@string/share_button"
+            android:text=""
             android:textColor="@color/colorAccent" />
 
         <TextView
@@ -78,7 +78,7 @@
             android:layout_centerInParent="true"
             android:layout_margin="4dp"
             android:alpha="0.5"
-            android:text="@string/copyright"
+            android:text=""
             android:textColor="@color/colorAccent"
             android:textSize="12sp" />
 
