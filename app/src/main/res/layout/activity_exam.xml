@@ -18,10 +18,25 @@
             android:layout_marginTop="32dp"
             android:background="@drawable/rounded_corners_dark"
             android:padding="8dp"
-            android:text="Protoss Unit Quiz"
+            android:text="Protoss Quiz"
             android:textAllCaps="true"
             android:textColor="@color/colorAccent"
             android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            style="@style/questionText"
+            android:text="1. What is the mineral cost of a Robotics facility?" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            android:inputType="number"
+            android:hint="50" />
 
 
 
