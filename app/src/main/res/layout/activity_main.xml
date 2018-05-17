@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/a13_phone"
+    android:background="@drawable/background"
     android:fillViewport="true"
     android:orientation="vertical"
     tools:context="org.holtnet.officialimperialbusiness.MainActivity">
@@ -20,35 +20,21 @@
             android:layout_marginTop="16dp"
             android:background="@drawable/rounded_corners_dark"
             android:padding="8dp"
-            android:text="@string/official_imperial_business"
+            android:text="@string/title"
             android:textAllCaps="true"
             android:textColor="@color/colorAccent"
             android:textSize="32sp"
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/member_exam_title"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/TitleTextTop"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="32dp"
-            android:background="@drawable/rounded_corners_dark"
-            android:padding="8dp"
-            android:text="@string/membership_exam"
-            android:textAllCaps="true"
-            android:textColor="@color/colorAccent"
-            android:textSize="24sp" />
-
-        <TextView
             android:id="@+id/membership_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/member_exam_title"
+            android:layout_above="@id/begin_button"
             android:layout_margin="16dp"
-            android:background="@drawable/rounded_corners_light"
-            android:padding="8dp"
-            android:text="@string/member_text"
+            android:background="@drawable/rounded_corners_dark"
+            android:paddingLeft="8dp"
+            android:text="@string/exam_description"
             android:textColor="@color/colorAccent"
             android:textSize="16sp" />
 
@@ -64,16 +50,6 @@
             android:text="@string/begin_exam"
             android:textColor="@color/colorAccent" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerInParent="true"
-            android:layout_margin="4dp"
-            android:alpha="0.5"
-            android:text="@string/copyright"
-            android:textColor="@color/colorAccent"
-            android:textSize="12sp" />
 
     </RelativeLayout>
 
