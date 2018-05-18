@@ -1,4 +1,4 @@
-package org.holtnet.officialimperialbusiness;
+package org.holtnet.StarCraftUnitQuiz;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("org.holtnet.officialimperialbusiness", appContext.getPackageName());
+        assertEquals("org.holtnet.StarCraftUnitQuiz", appContext.getPackageName());
     }
 }

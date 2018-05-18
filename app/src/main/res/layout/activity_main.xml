@@ -6,7 +6,7 @@
     android:background="@drawable/background"
     android:fillViewport="true"
     android:orientation="vertical"
-    tools:context="org.holtnet.officialimperialbusiness.MainActivity">
+    tools:context="org.holtnet.StarCraftUnitQuiz.MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -17,6 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
             android:layout_marginTop="16dp"
             android:background="@drawable/rounded_corners_dark"
             android:padding="8dp"
@@ -26,18 +27,6 @@
             android:textSize="32sp"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/membership_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_above="@id/begin_button"
-            android:layout_margin="16dp"
-            android:background="@drawable/rounded_corners_dark"
-            android:paddingStart="8dp"
-            android:paddingEnd="8dp"
-            android:text="@string/exam_description"
-            android:textColor="@color/colorAccent"
-            android:textSize="16sp" />
 
         <Button
             android:id="@+id/begin_button"

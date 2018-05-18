@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="org.holtnet.officialimperialbusiness.ExamActivity">
+    tools:context="org.holtnet.StarCraftUnitQuiz.ExamActivity">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -18,7 +18,7 @@
             android:layout_marginTop="32dp"
             android:background="@drawable/rounded_corners_dark"
             android:padding="8dp"
-            android:text="Protoss Quiz"
+            android:text="@string/protoss_quiz"
             android:textAllCaps="true"
             android:textColor="@color/colorAccent"
             android:textSize="24sp" />
@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:padding="8dp"
             style="@style/questionText"
-            android:text="1. What is the mineral cost of a Robotics facility?" />
+            android:text="@string/question1" />
 
         <EditText
             android:layout_width="fill_parent"
@@ -36,10 +36,155 @@
             android:layout_marginEnd="16dp"
             android:layout_marginStart="16dp"
             android:inputType="number"
-            android:hint="50" />
+            android:hint="@string/hint_text1" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            style="@style/questionText"
+            android:text="@string/question2" />
 
+        <RadioGroup
+            style="@style/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
+            <RadioButton
+                style="@style/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phoenix"/>
+
+            <RadioButton
+                style="@style/radioButton"
+                android:id="@+id/question1answer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/adept"/>
+
+            <RadioButton
+                style="@style/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/immortal"/>
+
+            <RadioButton
+                style="@style/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/carrier"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            style="@style/questionText"
+            android:text="@string/question3" />
+
+        <RadioGroup
+            style="@style/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                style="@style/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stalker"/>
+
+            <RadioButton
+                style="@style/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zealot"/>
+
+            <RadioButton
+                style="@style/radioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/probe"/>
+
+            <RadioButton
+                style="@style/radioButton"
+                android:id="@+id/question2answer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/observer"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            style="@style/questionText"
+            android:text="@string/question4" />
+
+        <CheckBox
+            style="@style/checkBox"
+            android:id="@+id/question3answer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/maraudxer" />
+
+        <CheckBox
+            style="@style/checkBox"
+            android:id="@+id/question3answer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hellion"/>
+
+        <CheckBox
+            style="@style/checkBox"
+            android:id="@+id/question3answer3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/immortal"/>
+
+        <CheckBox
+            style="@style/checkBox"
+            android:id="@+id/question3answer4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zergling"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            style="@style/questionText"
+            android:text="@string/question5" />
+
+        <CheckBox
+            style="@style/checkBox"
+            android:id="@+id/question4answer1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/siege_tank"/>
+
+        <CheckBox
+            style="@style/checkBox"
+            android:id="@+id/question4answer2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/marine"/>
+
+        <CheckBox
+            style="@style/checkBox"
+            android:id="@+id/question4answer3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zealot"/>
+
+        <CheckBox
+            style="@style/checkBox"
+            android:id="@+id/question4answer4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/zergling"/>
 
         <Button
             android:id="@+id/end_button"

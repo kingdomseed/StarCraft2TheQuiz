@@ -6,4 +6,24 @@
     <string name="begin_exam">Begin Exam</string>
 
     <string name="submit_for_scoring">Submit for Scoring</string>
+    <string name="protoss_quiz">Protoss Quiz</string>
+    <string name="question1">1. What is the mineral cost of a Robotics Facility?</string>
+    <string name="hint_text1">50</string>
+    <string name="question2">2. Which unit is a Gateway unit?</string>
+    <string name="question3">3. Which unit is a Robotics Facility unit?</string>
+    <string name="question4">4. Which units do the Zealot counter?</string>
+    <string name="question5">5. Which units counter the Immortal?</string>
+    <string name="maraudxer">Maraudxer</string>
+    <string name="hellion">Hellion</string>
+    <string name="immortal">Immortal</string>
+    <string name="zergling">Zergling</string>
+    <string name="siege_tank">Siege Tank</string>
+    <string name="marine">Marine</string>
+    <string name="stalker">Stalker</string>
+    <string name="zealot">Zealot</string>
+    <string name="probe">Probe</string>
+    <string name="observer">Observer</string>
+    <string name="phoenix">Phoenix</string>
+    <string name="adept">Adept</string>
+    <string name="carrier">Carrier</string>
 </resources>

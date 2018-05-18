@@ -6,7 +6,7 @@
     android:background="@drawable/background"
     android:fillViewport="true"
     android:orientation="vertical"
-    tools:context="org.holtnet.officialimperialbusiness.MainActivity">
+    tools:context="org.holtnet.StarCraftUnitQuiz.MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"

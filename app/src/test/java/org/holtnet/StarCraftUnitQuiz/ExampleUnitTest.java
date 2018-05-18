@@ -1,4 +1,4 @@
-package org.holtnet.officialimperialbusiness;
+package org.holtnet.StarCraftUnitQuiz;
 
 import org.junit.Test;
 
