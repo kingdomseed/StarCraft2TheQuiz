@@ -1,2 +1,1 @@
-# Official Imperial Business
-A goofy quiz app made for me and some friends who play games together. Also made to fulfill Udacity project 3 requirements for the third project in the Udacity Android Basics Nanodegree program.
+# StarCraft 2 The Quiz is a simple app made to showcase my java skills progress in the Android Basics Nanodegree program.
