@@ -26,4 +26,8 @@
     <string name="phoenix">Phoenix</string>
     <string name="adept">Adept</string>
     <string name="carrier">Carrier</string>
+    <string name="your_results">Your Results</string>
+    <string name="zeropercent">0%</string>
+    <string name="return_to_menu">Return to Menu</string>
+    <string name="share_your_score">Share Your Score</string>
 </resources>
