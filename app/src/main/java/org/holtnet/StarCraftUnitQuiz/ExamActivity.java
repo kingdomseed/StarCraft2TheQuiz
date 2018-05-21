@@ -50,7 +50,10 @@ public class ExamActivity extends AppCompatActivity {
         endButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+                // call the method that tallies the score
                 int score = ScoreCheck();
+
 
                 Intent submitIntent = new Intent(ExamActivity.this, ResultsActivity.class);
                 submitIntent.putExtra("FINAL_SCORE", score);
@@ -60,16 +63,21 @@ public class ExamActivity extends AppCompatActivity {
         });
     }
 
+    // this method tallies points when the submit button is clicked.
     private int ScoreCheck() {
 
         int points = 0;
 
+        // a String representation of the EditText
         String question1 = editTextQuestion.getText().toString();
 
+        // EditText Check
         if(question1.equals("200"))
         {
             points++;
         }
+
+        // RadioButton Checks
         if(radioButtonQuestion2.isChecked())
         {
             points++;
@@ -78,6 +86,8 @@ public class ExamActivity extends AppCompatActivity {
         {
             points++;
         }
+
+        //CheckBoxes Checks
         if(question4answer1.isChecked() && question4answer3.isChecked() && question4answer4.isChecked() && !question4answer2.isChecked())
         {
             points++;
@@ -87,6 +97,7 @@ public class ExamActivity extends AppCompatActivity {
             points++;
         }
 
+        // Return the points so they can be passed into the next activity.
         return points;
     }
 
