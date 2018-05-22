@@ -47,7 +47,7 @@ public class ResultsActivity extends AppCompatActivity {
         scoreText.setText(scoreString);
 
         // Display a toast of the score String
-        Toast.makeText(getApplicationContext(), scoreString,Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, scoreString,Toast.LENGTH_SHORT).show();
 
         // This button allows the user to return to the main menu and start again.
         mainMenuButton.setOnClickListener(new View.OnClickListener() {

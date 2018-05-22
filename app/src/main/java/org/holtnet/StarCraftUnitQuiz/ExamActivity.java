@@ -69,7 +69,7 @@ public class ExamActivity extends AppCompatActivity {
         int points = 0;
 
         // a String representation of the EditText
-        String question1 = editTextQuestion.getText().toString();
+        String question1 = editTextQuestion.getText().toString().trim();
 
         // EditText Check
         if(question1.equals("200"))

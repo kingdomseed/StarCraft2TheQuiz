@@ -17,14 +17,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:layout_marginEnd="16dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginEnd="@dimen/margin_end"
+            android:layout_marginTop="@dimen/margin_top"
             android:background="@drawable/rounded_corners_dark"
-            android:padding="8dp"
+            android:padding="@dimen/padding_eight"
             android:text="@string/your_results"
             android:textAllCaps="true"
             android:textColor="@color/colorAccent"
-            android:textSize="32sp"
+            android:textSize="@dimen/titles"
             android:textStyle="bold" />
 
         <TextView
@@ -33,14 +33,14 @@
             android:layout_height="wrap_content"
             android:layout_above="@id/return_button"
             android:layout_alignParentEnd="true"
-            android:layout_marginBottom="16dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="@dimen/margin_end"
+            android:layout_marginEnd="@dimen/margin_end"
             android:background="@drawable/rounded_corners_dark"
-            android:padding="8dp"
+            android:padding="@dimen/padding_eight"
             android:text="@string/zeropercent"
             android:textAllCaps="true"
             android:textColor="@color/colorAccent"
-            android:textSize="32sp"
+            android:textSize="@dimen/titles"
             android:textStyle="bold" />
 
         <Button
@@ -50,10 +50,10 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentEnd="true"
             android:layout_centerInParent="true"
-            android:layout_marginBottom="32dp"
-            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="@dimen/margin_bot_big"
+            android:layout_marginEnd="@dimen/margin_end"
             android:background="@drawable/rounded_corners_dark"
-            android:padding="8dp"
+            android:padding="@dimen/padding_eight"
             android:text="@string/return_to_menu"
             android:textColor="@color/colorAccent" />
 
@@ -64,10 +64,10 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
             android:layout_centerInParent="true"
-            android:layout_marginBottom="32dp"
-            android:layout_marginStart="16dp"
+            android:layout_marginBottom="@dimen/margin_bot_big"
+            android:layout_marginStart="@dimen/margin_top"
             android:background="@drawable/rounded_corners_dark"
-            android:padding="8dp"
+            android:padding="@dimen/padding_eight"
             android:text="@string/share_your_score"
             android:textColor="@color/colorAccent" />
 

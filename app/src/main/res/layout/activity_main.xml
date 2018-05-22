@@ -16,15 +16,15 @@
             android:id="@+id/TitleTextTop"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginStart="@dimen/margin_top"
+            android:layout_marginEnd="@dimen/margin_top"
+            android:layout_marginTop="@dimen/margin_top"
             android:background="@drawable/rounded_corners_dark"
-            android:padding="8dp"
+            android:padding="@dimen/padding_eight"
             android:text="@string/title"
             android:textAllCaps="true"
             android:textColor="@color/colorAccent"
-            android:textSize="32sp"
+            android:textSize="@dimen/title_text"
             android:textStyle="bold" />
 
 
@@ -34,9 +34,9 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
-            android:layout_marginBottom="32dp"
+            android:layout_marginBottom="@dimen/margin_bot_big"
             android:background="@drawable/rounded_corners_dark"
-            android:padding="8dp"
+            android:padding="@dimen/padding_eight"
             android:text="@string/begin_exam"
             android:textColor="@color/colorAccent" />
 
